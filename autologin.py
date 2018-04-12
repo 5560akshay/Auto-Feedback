@@ -5,8 +5,8 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 import select as Select
 import time
-usernameStr = '17DCS064'
-passwordStr = '310899'
+usernameStr = 'YourIDHere'
+passwordStr = 'YourPasswordHere'
 
 browser = webdriver.Firefox()
 browser.get(('http://egovernance/Egovwebapp/home.aspx'))
